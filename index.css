@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(18, 18, 76);
+    padding: 0;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#logo{
+    width: 220px;
+}
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+#menu{
+    list-style-type: none;
+}
+#menu li{
+    display: inline-block;
+}
+nav{
+    float: right;
+}
+.container{
+    width:80% ;
+    margin-left: auto;
+    margin-right: auto;
+}
+#intro{
+    background-color: #35176e;
+    background-image: url(../images/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 60% auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}h1{
+    color: white;
+}
+#white-box{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+}
+#white-box{
+    color: #7f7f7f7f;
+}
+#white-box{
+    color: #35176e;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#white-box p{
+    color: red;
+}
+
+#white-box p {
+    color: #ec000c;
+  }
+  .p {
+    color: #ec000c;
+  }
+  #about p {
+    margin: 20px;
+  }
+  
+  #half {
+    width: 50%;
+  }
+  #about {
+    background-image: url(../cotiviti/images/building.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto 100%;
+  }
+  #parallax{
+    height: 400px;
+  background-image: url(../cotiviti/images/parallax-home.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  }
+   #vanancy h2 {
+  color: blue;
+   }
+   #apple {
+    text-align: center;
+   }
+   #ball{
+    text-align: center;
+   }
+   #cat{
+    color: darkmagenta;
+    text-align: center;
+
+   }
+   #aa{
+    text-align: center;
+   }
+   #zzz{
+    /* border: 2px solid black; */
+    /* text-decoration: none; */
+    /* height: 20px; */
+    /* width: 100px; */
+    margin-top: 60px;
+   }
+
+   .btn{
+    border: 1px solid blue;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+   }
+
+   .btn:hover{
+    background-color: rgb(230, 8, 149);
+   }

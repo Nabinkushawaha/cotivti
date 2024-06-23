@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parent{
+    background-color:white;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+#menu a{
+    color:black;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    padding-top: 2px;
+    border-top: 1px solid transparent;
+}
+#menu a:hover{
+    border-top: 1px solid blue;
+    color: blue;
+}
+#menu{
+    list-style-type: none;
+    margin-top: 45px;
+}
+#menu li{
+    display: inline-block;
+}
+nav{
+    float: left;
+}
+sup{
+    color: white;
+    background-color: orange;
+    border-radius: 4px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+#red{
+    background-color: red;
+    z-index: 1;
+    top: 60px;
+    left: 60px;
+   
+}
+#green{
+    background-color: green;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+
+}
+#blue{
+    background-color: blue;
+    z-index: 5;
+    top: 15px;
+    left: 15px;
+}
+
+#parent{
+    margin-top: 50px;
+    position: relative;
+}
+#son{
+    margin-top: 250px;
+    position: relative;
+}
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.btn{
+    background-color: yellow;
+    border: 3px solid red;
+    padding: 15px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: all ease-in-out 5000ms;
+
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+    border: 10px dashed green;
+    padding: 30px;
+}
+#apple{
+    margin-top: 150px;
+    position: relative;
+}
+button {
+    background: #fd7c2a;
+    border: none;
+  padding: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+.hover:hover{
+  /* For Safari 3.0+ */
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 1s;
+    /* Standard syntax */
+/*     transition-property: padding;
+    transition-duration: 5s; */
+  transition: all ease-in-out 4s;
+} 
+
+button:hover{
+    background: #3cc16e;  
+  padding: 40px;
+}
+.hover:hover {
+    background: #3cc16e;
+}
+
+button.double-transition {
+    background: #fd7c2a;
+    border: 3px solid #dc5801;
+    /* For Safari 3.0+ */
+    -webkit-transition-property: background, border;
+    -webkit-transition-duration: 1s, 2s;
+    /* Standard syntax */
+    transition-property: background, border;
+    transition-duration: 1s, 2s;
+}
+button.double-transition:hover {
+    background: #3cc16e;
+    border-color: #288049;
+}
+
+button.shorthand-transition {
+    background: #fd7c2a;
+    -webkit-transition: background 2s ease-in 0s; /* For Safari 3.0+ */
+    transition: background, border-color 2s ease-in 0s; /* Standard syntax */
+        border: 10px solid transparent;
+}
+button.shorthand-transition:hover {
+    background: #3cc16e;
+      border: 10px solid #288049;
+      color: black;
+}
+#vvv{
+    margin-top: 50px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #288049;
+    margin-left: 60px;
+    box-shadow: -4px -4px 10px 20px rgba(0,0,0,0.78);
+}
+#bbb{
+    margin-top: 100px;
+    width: 80%;
+    position: absolute;
+    width: 500px;
+    height: 2px;
+    background-color: red;
+    bottom: -15px;
+    left: 0;
+}
+h2{
+    margin-top: 100px;
+    position: relative;
+    margin-bottom: 30px;
+}
+h2:after{
+    content:'';
+    position: absolute;
+    width: 100px;
+    height: 2px;background-color: red;
+    bottom: -15px;
+    left: 0;
+
+
+
+}
